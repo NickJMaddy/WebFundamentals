@@ -1,0 +1,23 @@
+body {
+    background-color: blanchedalmond;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.ohio {
+    background-color: chocolate;
+}
+.wait {
+    background-color: cornsilk;
+    grid-row: 2;
+    grid-column: 1/4;
+}
+.wait div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.all_ohio {
+    background-color: darkgray;
+    grid-column: 2/4;
+}
